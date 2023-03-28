@@ -59,8 +59,9 @@ public class loginStepDefination
 	{
 	    driver.getCurrentUrl();
 	    
-	    driver.close();
+	    //driver.close();
 	    
+	    driver.quit();
 	    
 	}
 	
